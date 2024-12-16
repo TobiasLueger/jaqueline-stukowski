@@ -1,0 +1,157 @@
+.about {
+  position: relative;
+  margin-bottom: 80vh;
+}
+.about-SVG {
+  position: absolute;
+  writing-mode: vertical-rl;
+  padding-top: 10vh;
+  left: -60px;
+  will-change: transform;
+}
+
+.about-h1 {
+  padding-left: 18vw;
+}
+
+/* .ball-one {
+  position: absolute;
+  width: clamp(28px, 6vw, 51px);
+}
+.ball-about-one {
+  left: 50vw;
+  top: 40vh;
+}
+
+.ball-two {
+  position: absolute;
+  width: clamp(26px, 5vw, 56px);
+}
+.ball-about-two {
+  left: 70vw;
+  top: 30vh;
+}
+
+.ball-three {
+  position: absolute;
+  width: clamp(34px, 7vw, 69px);
+}
+.ball-about-three {
+  left: 60vw;
+  top: 22vh;
+} */
+
+.about-description {
+  position: relative;
+  width: 80vw;
+  left: 20vw;
+  top: -30vh;
+}
+.about-description-desktop {
+  display: none;
+  position: relative;
+  left: 20vw;
+  top: -40vh;
+  width: 78vw;
+}
+
+.about-Principles {
+  width: 80vw;
+  position: relative;
+  left: 20vw;
+}
+
+.about h2 {
+  font-size: clamp(2.5rem, 10vw, 116px);
+}
+
+.mephoto-about {
+  position: absolute;
+  width: 42vw;
+  max-width: 285px;
+  top: -14vh;
+  right: 3vw;
+}
+
+.mephoto-about img {
+  position: relative;
+}
+
+.mephoto-about svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-p {
+  width: clamp(248px, 60vw, 640px);
+  padding: 4vh 0 10vh 1vw;
+}
+.about-p h3 {
+  padding-top: 1em;
+}
+.about_skills-SVG {
+  position: absolute;
+  left: -100px;
+  width: 56vw;
+  min-width: 320px;
+  max-width: 600px;
+  bottom: 21vh;
+}
+.about_Skills {
+  width: 80vw;
+  position: relative;
+  left: 20vw;
+  top: 20vh;
+  margin-bottom: -40vh;
+}
+
+@media screen and (min-width: 600px) {
+  .about-h1 {
+    padding-left: 20vw;
+  }
+  .about-description {
+    display: none;
+  }
+  .about-description-desktop {
+    display: block;
+  }
+
+  .mephoto-about {
+    width: 30vw;
+    top: -8vh;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-h1 {
+    padding-left: 0;
+  }
+
+  .animated-h1 {
+    width: 100vw;
+    text-align: center;
+  }
+  .about-description-desktop {
+    left: 24vw;
+  }
+
+  .about-Principles {
+    left: 36vw;
+  }
+  .about_Skills {
+    top: 32vh;
+    left: 36vw;
+    margin-bottom: 0;
+  }
+  .about_skills-SVG {
+    bottom: 26vh;
+  }
+
+  .mephoto-about {
+    right: 77vw;
+    top: -4vh;
+  }
+  .about-img {
+    padding-top: 18vh;
+  }
+}

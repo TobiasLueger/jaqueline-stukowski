@@ -1,0 +1,11 @@
+/node-modules
+/build
+/dist
+/coverage
+/.nyc_output
+/.next
+/.cache
+/.next
+/.vercel
+/.vercel_build_output
+.DS_Store
